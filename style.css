@@ -64,7 +64,7 @@
     color: white;
   }
 
-  body {
+  body.index{
     background-image: url("background.png");
     background-size: cover;
   }
