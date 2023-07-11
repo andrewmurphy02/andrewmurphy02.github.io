@@ -43,3 +43,7 @@
     background-color: #008CBA;
     color: white;
   }
+
+  body {
+    background-image: url("background.png");
+  }
