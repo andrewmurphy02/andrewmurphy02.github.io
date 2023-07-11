@@ -56,11 +56,11 @@
   .button4 {
     background-color: white; 
     color: black; 
-    border: 2px solid #FCE205;
+    border: 2px solid #FEE12B;
   }
   
   .button4:hover {
-    background-color: #FCE205;
+    background-color: #FEE12B;
     color: white;
   }
 
