@@ -53,6 +53,17 @@
     color: white;
   }
 
+  .button4 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #F9DC24;
+  }
+  
+  .button4:hover {
+    background-color: #F9DC24;
+    color: white;
+  }
+
   body {
     background-image: url("background.png");
     background-size: cover;
