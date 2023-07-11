@@ -1,4 +1,13 @@
-.button {
+  .header {
+    display: flex;
+    align-items: center; /* Align items vertically in the middle */
+  }
+
+  .header h1 {
+    margin-right: 10px; /* Add some spacing between the heading and button */
+  }
+    
+  .button {
     border: none;
     color: white;
     padding: 8px 32px;
