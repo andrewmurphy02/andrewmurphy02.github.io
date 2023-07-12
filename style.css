@@ -68,3 +68,7 @@
     background-image: url("background.png");
     background-size: cover;
   }
+
+  body.certificates{
+    background-image: url("qualys_csam.png");
+  }
