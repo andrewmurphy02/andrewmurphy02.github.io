@@ -65,10 +65,10 @@
   }
 
   body.index{
-    background-image: url("background.png");
+    background-image: url("img/background.png");
     background-size: cover;
   }
 
   body.certificates{
-    background-image: url("qualys_csam.png");
+    background-image: url("img/qualys_csam.png");
   }
