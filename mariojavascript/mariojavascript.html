@@ -4,10 +4,17 @@
         <title>"Assignment7 Javascript Mario"</title>
         <meta charset= "UTF-8">
     </head>
-    <body style="background-color: rgb(255,225,53);">
-        <p style="justify-content: flex-end;">This is my mario javascript game</p>
-        <a href="../arkansas.html"><button style="font-size: 24px; padding: 5px 15px; justify-content: flex-end;">Arkansas</button></a>
-        <canvas id="canvas" width="1000" height="500" style="background-color: rgb(128,255,255);"></canvas>
+    <body class="mariojavascript">
+        <p>This is my Mario JavaScript game</p>
+        <div id="canvas-container">
+            <canvas id="canvas" width="1000" height="500"></canvas>
+        </div>
+        <div class="button-container">
+            <a href="../arkansas.html">
+               <button>Arkansas</button>
+            </a>
+        </div>
+
         <script type ="text/javascript">
 
             class Sprite
