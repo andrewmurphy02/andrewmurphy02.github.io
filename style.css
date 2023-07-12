@@ -69,6 +69,14 @@
     background-size: cover;
   }
 
+  body.certificates{
+    background-color: white;
+  }
+
+  body.arkansas{
+    background-color: white;
+  }
+  
   .certificates img{
     width: 550px;
     height: 450x;
