@@ -67,11 +67,22 @@
   .button5 {
     background-color: white; 
     color: black; 
-    border: 2px solid #2CB01A;
+    border: 2px solid #E62310;
   }
   
   .button5:hover {
-    background-color: #2CB01A;
+    background-color: #E62310;
+    color: white;
+  }
+
+  .button6 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #43B047;
+  }
+  
+  .button6:hover {
+    background-color: #43B047;
     color: white;
   }
 
@@ -94,4 +105,22 @@
     margin-top: 20px;
   }
 
-  
+  /* Additional styles for instruction text */
+  #instructionText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 48%;
+    padding: 20px;
+    background-color: rgb(0, 155, 217);
+    font-size: 20pt;
+    color: rgb(255,255,255);
+    height: 466px;
+  }
+
+  /* custom font */
+  @font-face {
+    font-family: 'SuperMario256';
+    src: url('../fonts/SuperMario256.ttf') format('truetype');
+  }
