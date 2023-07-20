@@ -113,7 +113,7 @@
     bottom: 0;
     width: 28%;
     padding: 20px;
-    background-color: rgb(0, 155, 217);
+    background-color: rgb(0,0,0);
     font-size: 20pt;
     color: rgb(255,255,255);
     height: 467px;
@@ -123,4 +123,28 @@
   @font-face {
     font-family: 'SuperMario256';
     src: url('../fonts/SuperMario256.ttf') format('truetype');
+  }
+
+  .blue-text {
+    color: rgb(4, 156, 216);
+  }
+  
+  .yellow-text {
+    color: rgb(251, 208, 0);
+  }
+
+  .red-text {
+    color: rgb(229, 37, 33);
+  }
+
+  .green-text {
+    color: rgb(67, 176, 71);
+  }
+  
+  .text-container {
+    font-family: 'SuperMario256', sans-serif;
+    background-color: black;
+    padding: 10px; /* Add some padding around the text for better spacing */
+    display: inline-block;
+    color: white;
   }
