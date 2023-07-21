@@ -484,6 +484,7 @@
                     this.key_left = false;
                     this.space_bar = false;
                     this.crtl = false;
+                    this.prev_crtl = false;
                     let self = this;
                     document.addEventListener('keydown', function(event) { self.keyDown(event); }, false);
                     document.addEventListener('keyup', function(event) { self.keyUp(event); }, false);
@@ -529,10 +530,10 @@
                         destination_y -= 100;
                     }
 
-                    if(this.crtl)
-                    {
+                    if (this.crtl && !this.prev_crtl) {
                         this.model.shootFireball();
-                    }
+                      }
+                      this.prev_crtl = this.crtl;
 
                     if(destination_x != 0 || destination_y != 0)
                     {
