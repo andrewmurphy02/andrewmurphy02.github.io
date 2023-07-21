@@ -87,11 +87,8 @@
   }
 
   body.index{
-    margin: 0;
-    padding: 0;
     background-image: url("../img/background.png");
     background-size: cover;
-    height: 100%;
   }
 
   body.certificates{
