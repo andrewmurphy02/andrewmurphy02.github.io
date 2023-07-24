@@ -86,16 +86,48 @@
     color: white;
   }
 
+  /* Java color */
+  .button7 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f89820;
+  }
+  
+  /* JavaScript Color */
+  .button7:hover {
+    background-color: #f89820;
+    color: white;
+  }
+ 
+  .button8 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f0db4f;
+  }
+
+  .button8:hover {
+    background-color: #f0db4f;
+    color: white;
+  }
+
+  /* Python Color */
+  .button9 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4B8BBE;
+  }
+
+  .button9:hover {
+    background-color: #4B8BBE;
+    color: white;
+  }
+
   body.index{
     background-image: url("../img/background.png");
     background-size: cover;
   }
 
   body.certificates{
-    background-color: white;
-  }
-
-  body.projects{
     background-color: white;
   }
 
@@ -139,5 +171,10 @@
 
   .green-text {
     color: rgb(67, 176, 71);
+  }
+
+  body.projects {
+    background-image: url('../img/lines.gif');
+    background-size: cover;
   }
   
