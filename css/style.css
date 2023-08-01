@@ -86,18 +86,60 @@
     color: white;
   }
 
+  .button7 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(231, 54, 48);
+  }
+  
+  .button7:hover {
+    background-color: rgb(231, 54, 48);
+    color: white;
+  }
+
+  .button8 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #60ab49;
+  }
+  
+  .button8:hover {
+    background-color: #60ab49;
+    color: white;
+  }
 
   .button9 {
     background-color: white;
     color: black;
-    border: 2px solid   #1377a1;
+    border: 2px solid   rgb(6, 139, 240);
   }
 
   .button9:hover {
-    background-color:   #1377a1;
+    background-color:   rgb(6, 139, 240);
     color: white;
   }
 
+  .button10 {
+    background-color: white;
+    color: black;
+    border: 2px solid   rgb(247, 172, 34);
+  }
+
+  .button10:hover {
+    background-color:   rgb(247, 172, 34);
+    color: white;
+  }
+
+  .button11 {
+    background-color: white;
+    color: black;
+    border: 2px solid   rgb(153, 60, 187);
+  }
+
+  .button11:hover {
+    background-color:   rgb(153, 60, 187);
+    color: white;
+  }
   body.index{
     background-image: url("../img/background.png");
     background-size: cover;
@@ -148,11 +190,6 @@
   .green-text {
     color: rgb(67, 176, 71);
   }
-
-  /*body.projects {
-    background-image: url('../img/lines.gif');
-    background-size: cover;
-  }*/
   
   #cInstructionText {
     position: absolute;
@@ -161,7 +198,7 @@
     bottom: 0;
     width: 28%;
     padding: 20px;
-    background-color: #a4a2a2;
+    background-color: #000000;
     font-size: 20pt;
     color: rgb(255,255,255);
     height: 100%;
