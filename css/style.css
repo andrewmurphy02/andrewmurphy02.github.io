@@ -86,39 +86,15 @@
     color: white;
   }
 
-  /* Java color */
-  .button7 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #f89820;
-  }
-  
-  /* JavaScript Color */
-  .button7:hover {
-    background-color: #f89820;
-    color: white;
-  }
- 
-  .button8 {
-    background-color: white;
-    color: black;
-    border: 2px solid #f0db4f;
-  }
 
-  .button8:hover {
-    background-color: #f0db4f;
-    color: white;
-  }
-
-  /* Python Color */
   .button9 {
     background-color: white;
     color: black;
-    border: 2px solid #4B8BBE;
+    border: 2px solid   #1377a1;
   }
 
   .button9:hover {
-    background-color: #4B8BBE;
+    background-color:   #1377a1;
     color: white;
   }
 
@@ -173,8 +149,20 @@
     color: rgb(67, 176, 71);
   }
 
-  body.projects {
+  /*body.projects {
     background-image: url('../img/lines.gif');
     background-size: cover;
-  }
+  }*/
   
+  #cInstructionText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 28%;
+    padding: 20px;
+    background-color: #a4a2a2;
+    font-size: 20pt;
+    color: rgb(255,255,255);
+    height: 100%;
+  }
