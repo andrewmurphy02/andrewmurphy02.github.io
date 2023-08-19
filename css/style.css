@@ -184,6 +184,18 @@
     background-color:#6fd1ff;
     color: white;
   }
+
+  .button15 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #f2b475;
+  }
+
+  .button15:hover {
+    background-color:#f2b475;
+    color: white;
+  }
+
   
   
   
