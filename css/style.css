@@ -239,9 +239,14 @@
     background-color:#da7cf1;
     color: white;
   }
-  
+
   body.index{
     background-image: url("../img/background.png");
+    background-size: cover;
+  }
+
+  body.projects{
+    background-image: url("../img/background.jpeg");
     background-size: cover;
   }
 
