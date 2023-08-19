@@ -188,11 +188,11 @@
   .button15 {
     background-color: white;
     color: black;
-    border: 2px solid   #f2b475;
+    border: 2px solid   #707ceb;
   }
 
   .button15:hover {
-    background-color:#f2b475;
+    background-color:#707ceb;
     color: white;
   }
 
@@ -206,7 +206,39 @@
     background-color:#00CED1;
     color: white;
   }
-  
+
+  .button17 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #89d159;
+  }
+
+  .button17:hover {
+    background-color:#89d159;
+    color: white;
+  }
+
+  .button18 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #ebf17c;
+  }
+
+  .button18:hover {
+    background-color:#ebf17c;
+    color: white;
+  }
+
+  .button19 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #da7cf1;
+  }
+
+  .button19:hover {
+    background-color:#da7cf1;
+    color: white;
+  }
   
   body.index{
     background-image: url("../img/background.png");
