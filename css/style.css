@@ -140,6 +140,53 @@
     background-color:   rgb(153, 60, 187);
     color: white;
   }
+
+  .button11 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #e774bd;
+  }
+
+  .button11:hover {
+    background-color:   #e774bd;
+    color: white;
+  }
+
+  .button12 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #00c09d;
+  }
+
+  .button12:hover {
+    background-color:#00c09d;
+    color: white;
+  }
+
+  .button13 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #ff5c0b;
+  }
+
+  .button13:hover {
+    background-color:#ff5c0b;
+    color: white;
+  }
+
+  .button14 {
+    background-color: white;
+    color: black;
+    border: 2px solid   #6fd1ff;
+  }
+
+  .button14:hover {
+    background-color:#6fd1ff;
+    color: white;
+  }
+  
+  
+  
   body.index{
     background-image: url("../img/background.png");
     background-size: cover;
@@ -203,3 +250,18 @@
     color: rgb(255,255,255);
     height: 100%;
   }
+
+  #cInstructionText2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 28%;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 20pt;
+    color: rgb(255,255,255);
+    height: 150%;
+  }
+
+  
