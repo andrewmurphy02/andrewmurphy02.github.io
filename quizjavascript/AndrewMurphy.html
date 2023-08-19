@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Andrew Murphy's Page</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <meta charset= "UTF-8">
+    </head>
+    <body style="background-color:peachpuff;">
+        <h1>Andrew Murphy's Page</h1>
+        <p>This page is all about the United States of America! In this quiz you will be asked several
+            questions regarding the states that make up America.<br> If you are interested in learning more 
+            about the states click <a href="https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States" target="_blank">here</a> to get more info!
+        </p>
+        <script>
+            function showCorrect() {  
+                document.getElementById("display").innerHTML = "Correct!";  
+            }
+            function showIncorrect() {
+                document.getElementById("display").innerHTML = "Incorrect!";
+            }
+        </script>
+        <script>
+            function showCorrect1() {  
+                document.getElementById("display1").innerHTML = "Correct!";  
+            }
+            function showIncorrect1() {
+                document.getElementById("display1").innerHTML = "Incorrect!";
+            }
+        </script>
+        <script>
+            function showCorrect2() {  
+                document.getElementById("display2").innerHTML = "Correct!";  
+            }
+            function showIncorrect2() {
+                document.getElementById("display2").innerHTML = "Incorrect!";
+            }
+        </script>
+        <script>
+            function resetPage() {
+                document.getElementById("display").innerHTML = "";
+                document.getElementById("display1").innerHTML = "";
+                document.getElementById("display2").innerHTML = "";
+            }   
+        </script>
+        <div>
+            <h3>1.) Which of the following states below is located on the east coast of the United States of America?</h3>
+            <p onclick="showIncorrect()">A.) California</p>
+            <p onclick="showIncorrect()">B.) Texas</p>
+            <p onclick="showIncorrect()">C.) Ohio</p>
+            <p onclick="showCorrect()">D.) Georgia</p>
+            <p id="display"></p>
+        </div>
+        <div>
+            <h3>2.) Which of the following states is the smallest state?</h3>
+            <img src="florida.png" onclick="showIncorrect1()" width="150" height="150" alt="Florida">
+            <img src="nj.png" onclick="showCorrect1()" width="150" height="150" alt="New Jersey">
+            <img src="washington.png" onclick="showIncorrect1()" width="150" height="150" alt="Washington State">
+            <img src="louisiana.png" onclick="showIncorrect1()" width="150" height="150" alt="Louisiana">
+            <p id="display1"></p>
+        </div>
+        <div>
+            <h3>3.) How many states are in the United States of America?</h3>
+            <p onclick="showCorrect2()">A.) 50</p>
+            <p onclick="showIncorrect2()">B.) 13</p>
+            <p onclick="showIncorrect2()">C.) 51</p>
+            <p onclick="showIncorrect2()">D.) 49</p>
+            <p id="display2"></p>
+        </div>
+        <button onclick="resetPage()">Reset</button>
+        <br>
+        <a href="../html/projects.html"><button class="button button16">Go Back!</button></a>
+    </body>
+</html>
