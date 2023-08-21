@@ -199,11 +199,11 @@
   .button16 {
     background-color: white;
     color: black;
-    border: 2px solid   #00CED1 ;
+    border: 2px solid   #b3c9ce ;
   }
 
   .button16:hover {
-    background-color:#00CED1;
+    background-color:#b3c9ce;
     color: white;
   }
 
@@ -240,13 +240,9 @@
     color: white;
   }
 
+
   body.index{
     background-image: url("../img/background.png");
-    background-size: cover;
-  }
-
-  body.projects{
-    background-image: url("../img/background.jpeg");
     background-size: cover;
   }
 
