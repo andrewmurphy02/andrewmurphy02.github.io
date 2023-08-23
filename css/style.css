@@ -240,10 +240,16 @@
     color: white;
   }
 
-
-  body.index{
+  body.index {
     background-image: url("../img/background.png");
     background-size: cover;
+  }
+
+  .arkansas {
+    background-image: url("../img/oldmain\ 2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 
   body.certificates{
@@ -318,4 +324,10 @@
     height: 150%;
   }
 
-  
+  .button-square {
+    padding: 0; /* Remove padding to make the image fit properly */
+    border: none; /* Remove border for a cleaner look */
+    background-color: transparent; /* Transparent background */
+    cursor: pointer; /* Show cursor pointer on hover */
+    margin-right: 5px;
+}
